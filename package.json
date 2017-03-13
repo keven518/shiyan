@@ -1,0 +1,12 @@
+{
+  "name": "kindergarten",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lisa520zijin/kindergarten.git",
+  "author": "kewen <957314724@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1"
+  }
+}
