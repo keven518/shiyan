@@ -1,0 +1,171 @@
+body, h1, h2, h3, h4, h5, h6, img, li, ol, p,ul,li{
+	padding: 0;
+	margin: 0;
+}
+a, a:active, a:focus, a:hover {
+    color: #404040;
+    text-decoration: none;
+    outline: 0;
+    star: expression(this.onFocus=this.blur());
+}
+body{
+	font-family: PingFangSC-Regular,Helvetica,Verdana,'Microsoft YaHei','微软雅黑',Arial,Helvetica,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.page{
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+}
+.primary_b{
+	color: #fff!important;
+	border-color: #51C4F3!important;
+	background-color: #51C4F3!important;
+}
+.p_banner{
+	width: 100%;
+	height: 100px;
+	background: #090;
+}
+.p_nav{
+	margin: 15px auto 0;
+    height: auto;
+}
+.p_nav_ul li {
+    float: left;
+    display: inline;
+    width: 25%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.clr:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    zoom: 1;
+}
+.p_nav_ul li h2 {
+    color: #666;
+    font-family: STHeiti;
+    font-size: 12px;
+    line-height: 1.2;
+}
+.p_nav_ul li .img .icon.icon-article {
+    background-position: 0 0;
+}
+.p_nav_ul li .img .icon.icon-ceshi {
+    background-position: -40px 0;
+}
+.p_nav_ul li .img .icon.icon-classes {
+    background-position: -80px 0;
+}
+.p_nav_ul li .img .icon.icon-fm {
+    background-position: -120px 0;
+}
+.p_nav_ul li .img .icon {
+    display: block;
+    height: 40px;
+    position: relative;
+    background: url(../images/xinli-icons_index.png);
+    background-size: 165px 82.5px;
+}
+.p_nav_ul li .img [class*=icon-] {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 9px;
+}
+
+.p-bigNav {
+    overflow: hidden;
+    padding-top: 10px;
+    background: #F2F2F2;
+}
+.p-bigNav .left {
+    padding: 15px 0;
+    border-right: 1px solid #DDD;
+    line-height: 20px;
+}
+.p-bigNav .left,.p-bigNav .right {
+    float: left;
+    box-sizing: border-box;
+    width: 45%;
+    height: 154px;
+    text-align: center;
+    background: #fff;
+}
+.p-bigNav .down, .p-bigNav .up {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 50%;
+    padding: 15px 0 0 22px;
+    text-align: left;
+}
+.p-bigNav .left a, .p-bigNav .right a {
+    display: inline-block;
+    width: 100%;
+}
+.p-bigNav .down span, .p-bigNav .up span {
+    float: left;
+}
+.p-bigNav .left h1 {
+    color: #36A5EC;
+}
+.actionArea h1 {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.p-bigNav .right {
+    width: 55%;
+}
+.p-bigNav .up h1 {
+    color: #f89568;
+}
+.p-bigNav .icon {
+    background: url(../images/xinli-icons_index.png);
+    background-size: 165px 82.5px;
+}
+.p-bigNav .icon.icon-yuyue {
+    display: inline-block;
+    width: 38px;
+    height: 41px;
+    margin-top: 12px;
+    background-position: 0 -41px;
+}
+.p-bigNav .icon.icon-qs{
+    float: left;
+    width: 31px;
+    height: 31px;
+    margin: 4.5px 0 auto 10px;
+    background-position: -41px -41px;
+}
+.p-bigNav .icon.icon-wenda {
+    float: left;
+    width: 31px;
+    height: 31px;
+    margin: 4.5px 0 auto 10px;
+    background-position: -79px -41px;
+}
+.p-bigNav .icon {
+    background: url(../images/xinli-icons_index.png);
+    background-size: 165px 82.5px;
+}
+.p-bigNav .down h1 {
+    color: #1ab893;
+}
+.p-bigNav .broadcast, .p-bigNav .down {
+    border-top: 1px solid #ddd;
+}
+.p-broadcast{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 35px;
+    background: #fff;
+}
